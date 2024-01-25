@@ -2,42 +2,52 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const StyledHeader = styled.header`
-  border-bottom: 1px solid #000000;
-  box-shadow: 0px 1px 2px #121306;
-  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 8px 0 9px 0;
 `;
 
 export const MainNav = styled.nav`
   margin-right: auto;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 9.5px;
 `;
 
 export const StyledLink = styled(NavLink)`
+  display: flex;
+  align-items: center;
+  gap: 9.5px;
+  color: ${props => props.theme.colors.greyGreen};
   font-family: inherit;
-  padding: 6px 10px;
-  outline: none;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #ffffff;
-  background: linear-gradient(145deg, #0d013e, #2711ba);
-  box-shadow: 2px 3px 4px #2e2bc2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.45px;
   transition: 250ms transform ease-in-out, 300ms box-shadow ease-out,
     150ms color ease-in;
   &:hover,
   &:focus {
-    color: #ffbb00;
-    transform: scale(1.04);
-    box-shadow: 2px 3px 4px #b8c501, 1px 1px 2px #fbff00;
   }
 
   &.active {
-    color: #ffbb00;
-    background: linear-gradient(145deg, #1b0181, #0149a8);
   }
+`;
+
+export const StyledImage = styled.img`
+  height: 100%;
+`;
+export const StyledButton = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.5px;
+  height: 33.5px;
+  border: none;
+  outline: none;
+  border-radius: 6.543px;
+  background-color: ${props => props.theme.colors.buttonBg};
+  cursor: pointer;
 `;

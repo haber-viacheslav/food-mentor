@@ -10,9 +10,11 @@ export const theme = Object.freeze({
   },
   colors: {
     clearWhite: '#FFFFFF',
+    buttonBg: '#f4f4f4',
     light: '#E1E1E1',
     greyGreen: '#374234',
     green: '#5FCB39',
+    lightGreen: ' #60cb3930',
     black: '#2D3436',
     clearBlack: '#000000',
     grey: '#616161',

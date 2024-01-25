@@ -8,9 +8,9 @@ export const Loader = () => {
   return createPortal(
     <LoadingWpr>
       <Rings
-        height="200"
-        width="200"
-        color="#0026fd"
+        height="100"
+        width="100"
+        color="#8c8c8c"
         radius="6"
         wrapperStyle={{}}
         wrapperClass=""
