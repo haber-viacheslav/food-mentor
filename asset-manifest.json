@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/food-mentor/static/css/main.c1cad30a.css",
-    "main.js": "/food-mentor/static/js/main.3d353522.js",
+    "main.js": "/food-mentor/static/js/main.91217cf5.js",
+    "static/js/489.356cd8bc.chunk.js": "/food-mentor/static/js/489.356cd8bc.chunk.js",
+    "static/js/901.819362c6.chunk.js": "/food-mentor/static/js/901.819362c6.chunk.js",
+    "static/js/239.2fa0624d.chunk.js": "/food-mentor/static/js/239.2fa0624d.chunk.js",
+    "static/js/972.4531aba2.chunk.js": "/food-mentor/static/js/972.4531aba2.chunk.js",
     "index.html": "/food-mentor/index.html",
     "main.c1cad30a.css.map": "/food-mentor/static/css/main.c1cad30a.css.map",
-    "main.3d353522.js.map": "/food-mentor/static/js/main.3d353522.js.map"
+    "main.91217cf5.js.map": "/food-mentor/static/js/main.91217cf5.js.map",
+    "489.356cd8bc.chunk.js.map": "/food-mentor/static/js/489.356cd8bc.chunk.js.map",
+    "901.819362c6.chunk.js.map": "/food-mentor/static/js/901.819362c6.chunk.js.map",
+    "239.2fa0624d.chunk.js.map": "/food-mentor/static/js/239.2fa0624d.chunk.js.map",
+    "972.4531aba2.chunk.js.map": "/food-mentor/static/js/972.4531aba2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1cad30a.css",
-    "static/js/main.3d353522.js"
+    "static/js/main.91217cf5.js"
   ]
 }
