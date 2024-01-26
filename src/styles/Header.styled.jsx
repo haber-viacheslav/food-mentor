@@ -26,20 +26,12 @@ export const StyledLink = styled(NavLink)`
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.45px;
-  transition: 250ms transform ease-in-out, 300ms box-shadow ease-out,
-    150ms color ease-in;
-  &:hover,
-  &:focus {
-  }
-
-  &.active {
-  }
 `;
 
 export const StyledImage = styled.img`
   height: 100%;
 `;
-export const StyledButton = styled.button`
+export const StyledButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

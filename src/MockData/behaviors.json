@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Behavior 1",
+    "image": "cross",
+    "text": "Text for behavior 1"
+  },
+  {
+    "id": 2,
+    "title": "Behavior 2",
+    "image": "url_to_image_2",
+    "text": "Text for behavior 2"
+  },
+  {
+    "id": 3,
+    "title": "Behavior 3",
+    "image": "url_to_image_3",
+    "text": "Text for behavior 3"
+  },
+  {
+    "id": 4,
+    "title": "Behavior 4",
+    "image": "url_to_image_4",
+    "text": "Text for behavior 4"
+  },
+  {
+    "id": 5,
+    "title": "Behavior 5",
+    "image": "url_to_image_5",
+    "text": "Text for behavior 5"
+  },
+  {
+    "id": 6,
+    "title": "Behavior 6",
+    "image": "url_to_image_6",
+    "text": "Text for behavior 6"
+  }
+]
