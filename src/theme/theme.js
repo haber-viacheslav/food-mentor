@@ -18,6 +18,7 @@ export const theme = Object.freeze({
     black: '#2D3436',
     clearBlack: '#000000',
     grey: '#616161',
+    red: '#c73c3c',
     transparent: 'transparent',
     currentColor: 'currentColor',
   },

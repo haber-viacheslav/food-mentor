@@ -1,8 +1,8 @@
 import { StyledContinueButton } from 'styles/ContinueButton.styled';
 
-export const ContinueButton = ({ children, onClick }) => {
+export const ContinueButton = ({ type = 'button', children, onClick }) => {
   return (
-    <StyledContinueButton type="button" onClick={onClick}>
+    <StyledContinueButton type={type} onClick={onClick}>
       {children}
     </StyledContinueButton>
   );

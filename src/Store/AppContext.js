@@ -8,7 +8,7 @@ export const AppProvider = ({ children }) => {
     goal: null,
     measure: {},
     behaviors: null,
-    physical: null,
+    exercise: null,
   });
 
   const updateSelectedData = newData => {
