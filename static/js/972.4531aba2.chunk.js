@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkfood_mentor=self.webpackChunkfood_mentor||[]).push([[972],{972:(e,s,o)=>{o.r(s),o.d(s,{default:()=>d});var c=o(184);const d=()=>(0,c.jsx)("div",{children:"Physical"})}}]);
-//# sourceMappingURL=972.4531aba2.chunk.js.map

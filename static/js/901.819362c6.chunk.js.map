@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/901.819362c6.chunk.js","mappings":"mJAAA,MAIA,EAJkBA,KACTC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,a","sources":["pages/Behaviors.jsx"],"sourcesContent":["const Behaviors = () => {\n  return <div>Behaviors</div>;\n};\n\nexport default Behaviors;\n"],"names":["Behaviors","_jsx","children"],"sourceRoot":""}

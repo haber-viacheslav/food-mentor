@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/239.2fa0624d.chunk.js","mappings":"mJAAA,MAIA,EAJgBA,KACPC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,W","sources":["pages/Measure.jsx"],"sourcesContent":["const Measure = () => {\n  return <div>Measure</div>;\n};\n\nexport default Measure;\n"],"names":["Measure","_jsx","children"],"sourceRoot":""}
