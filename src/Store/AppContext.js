@@ -7,7 +7,7 @@ export const AppProvider = ({ children }) => {
     page: 1,
     goal: null,
     measure: {},
-    behavior: null,
+    behaviors: null,
     physical: null,
   });
 

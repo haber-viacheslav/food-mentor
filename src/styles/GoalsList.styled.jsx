@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledGoalsList = styled.ul`
+  width: 360px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -8,7 +10,7 @@ export const StyledGoalsList = styled.ul`
 `;
 
 export const StyledGoalsItem = styled.li`
-  width: 172px;
+  flex-basis: calc((100% - (2 - 1) * 16px) / 2);
   height: 172px;
   display: flex;
   align-items: center;
@@ -18,12 +20,13 @@ export const StyledGoalsItem = styled.li`
   background: linear-gradient(214deg, #f1f1f1 12.33%, #fff 69.93%);
   overflow: hidden;
   cursor: pointer;
+  transition: box-shadow 300ms ease-in-out, border-color 300ms ease-in-out;
   ${({ isSelected, theme }) =>
     isSelected &&
     `
     border: 1px solid ${theme.colors.green}; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  `}
+  `};
 `;
 export const StyledGoalImage = styled.img``;
 export const StyledGoalDescription = styled.p`

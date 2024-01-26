@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledDescription = styled.p`
+  margin: 0 auto;
   color: ${props => props.theme.colors.grey};
+  width: 330px;
   text-align: center;
   font-size: 14px;
   font-style: normal;
