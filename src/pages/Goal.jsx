@@ -10,6 +10,7 @@ import { GoalsItem } from 'components/GoalsItem';
 import { assetsData } from 'assets/assets';
 import { useAppContext } from '../Store/AppContext';
 import { ContinueButton } from 'components/ContinueButton';
+import { handleContinue } from '../utils/handleContinue';
 const Goal = () => {
   const { selectedData, updateSelectedData } = useAppContext();
   const navigate = useNavigate();
@@ -19,22 +20,8 @@ const Goal = () => {
   };
 
   const handleButtonClick = () => {
-    const nextPage = selectedData.page + 1;
-    updateSelectedData({ page: nextPage });
-    switch (nextPage) {
-      case 2:
-        navigate('/measure');
-        break;
-      case 3:
-        navigate('/behaviors');
-        break;
-      case 4:
-        navigate('/physical');
-        break;
-      default:
-        navigate('/');
-        break;
-    }
+    const nextPage = selectedData.page > 4 ? 1 : selectedData.page + 1;
+    handleContinue(nextPage, updateSelectedData, navigate);
   };
 
   return (

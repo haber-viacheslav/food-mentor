@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledContinueButton = styled.button`
   display: flex;
+  margin: 0 auto;
   width: 360px;
   height: 50px;
   align-items: center;

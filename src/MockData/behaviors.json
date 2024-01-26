@@ -1,38 +1,44 @@
 [
   {
     "id": 1,
-    "title": "Behavior 1",
-    "image": "cross",
-    "text": "Text for behavior 1"
+    "title": "Moon",
+    "image": "moon",
+    "text": "I don't rest enough",
+    "selected": false
   },
   {
     "id": 2,
-    "title": "Behavior 2",
-    "image": "url_to_image_2",
-    "text": "Text for behavior 2"
+    "title": "Donut",
+    "image": "donut",
+    "text": "I have a sweet tooth",
+    "selected": false
   },
   {
     "id": 3,
-    "title": "Behavior 3",
-    "image": "url_to_image_3",
-    "text": "Text for behavior 3"
+    "title": "Soda",
+    "image": "soda",
+    "text": "I have too much soda",
+    "selected": false
   },
   {
     "id": 4,
-    "title": "Behavior 4",
-    "image": "url_to_image_4",
-    "text": "Text for behavior 4"
+    "title": "Salt",
+    "image": "salt",
+    "text": "I eat many salty foods",
+    "selected": false
   },
   {
     "id": 5,
-    "title": "Behavior 5",
-    "image": "url_to_image_5",
-    "text": "Text for behavior 5"
+    "title": "Pizza",
+    "image": "pizza",
+    "text": "I enjoy midnight snacks",
+    "selected": false
   },
   {
     "id": 6,
-    "title": "Behavior 6",
-    "image": "url_to_image_6",
-    "text": "Text for behavior 6"
+    "title": "None",
+    "image": "cross",
+    "text": "None of the above",
+    "selected": false
   }
 ]
