@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/food-mentor/static/css/main.87c04bed.css",
-    "main.js": "/food-mentor/static/js/main.d2536193.js",
-    "static/js/780.e29a3195.chunk.js": "/food-mentor/static/js/780.e29a3195.chunk.js",
-    "static/js/901.e6b28319.chunk.js": "/food-mentor/static/js/901.e6b28319.chunk.js",
-    "static/js/239.3d9e1faa.chunk.js": "/food-mentor/static/js/239.3d9e1faa.chunk.js",
-    "static/js/464.e703efa2.chunk.js": "/food-mentor/static/js/464.e703efa2.chunk.js",
+    "main.js": "/food-mentor/static/js/main.59c04e2b.js",
+    "static/js/557.3b5e4b88.chunk.js": "/food-mentor/static/js/557.3b5e4b88.chunk.js",
+    "static/js/97.08c2b1d2.chunk.js": "/food-mentor/static/js/97.08c2b1d2.chunk.js",
+    "static/js/239.c0be360f.chunk.js": "/food-mentor/static/js/239.c0be360f.chunk.js",
+    "static/js/464.21aeafe1.chunk.js": "/food-mentor/static/js/464.21aeafe1.chunk.js",
+    "static/js/551.3c9cb2cd.chunk.js": "/food-mentor/static/js/551.3c9cb2cd.chunk.js",
     "static/media/active-girl.png": "/food-mentor/static/media/active-girl.de99a62ff640e63f6028.png",
+    "static/media/donut.svg": "/food-mentor/static/media/donut.98b4da337a1935da49bd1d7d47313704.svg",
+    "static/media/salt.svg": "/food-mentor/static/media/salt.d6bee246a6f464c8b2f29e551cc5db77.svg",
     "static/media/avocado.svg": "/food-mentor/static/media/avocado.d9fae72e0983dc00465dd6c967c11cba.svg",
+    "static/media/pizza.svg": "/food-mentor/static/media/pizza.abc44ace2d060abdf85a08c3e9585758.svg",
+    "static/media/soda.svg": "/food-mentor/static/media/soda.85fd99b4d3f539116fa24427e1d2ed86.svg",
     "static/media/cross.svg": "/food-mentor/static/media/cross.2fc1f648a478ff4d1d0303d1369cfb86.svg",
+    "static/media/moon.svg": "/food-mentor/static/media/moon.0fd017b762329366ec9434e7755d7591.svg",
     "index.html": "/food-mentor/index.html",
     "static/media/back.svg": "/food-mentor/static/media/back.2a373f96fabaf6e1f53a0640200363ab.svg",
     "main.87c04bed.css.map": "/food-mentor/static/css/main.87c04bed.css.map",
-    "main.d2536193.js.map": "/food-mentor/static/js/main.d2536193.js.map",
-    "780.e29a3195.chunk.js.map": "/food-mentor/static/js/780.e29a3195.chunk.js.map",
-    "901.e6b28319.chunk.js.map": "/food-mentor/static/js/901.e6b28319.chunk.js.map",
-    "239.3d9e1faa.chunk.js.map": "/food-mentor/static/js/239.3d9e1faa.chunk.js.map",
-    "464.e703efa2.chunk.js.map": "/food-mentor/static/js/464.e703efa2.chunk.js.map"
+    "main.59c04e2b.js.map": "/food-mentor/static/js/main.59c04e2b.js.map",
+    "557.3b5e4b88.chunk.js.map": "/food-mentor/static/js/557.3b5e4b88.chunk.js.map",
+    "97.08c2b1d2.chunk.js.map": "/food-mentor/static/js/97.08c2b1d2.chunk.js.map",
+    "239.c0be360f.chunk.js.map": "/food-mentor/static/js/239.c0be360f.chunk.js.map",
+    "464.21aeafe1.chunk.js.map": "/food-mentor/static/js/464.21aeafe1.chunk.js.map",
+    "551.3c9cb2cd.chunk.js.map": "/food-mentor/static/js/551.3c9cb2cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87c04bed.css",
-    "static/js/main.d2536193.js"
+    "static/js/main.59c04e2b.js"
   ]
 }
