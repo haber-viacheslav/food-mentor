@@ -1,5 +1,5 @@
-import { useLocation, useNavigate } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';
+import { handleContinue } from 'utils/handleContinue';
 import {
   StyledHeader,
   MainNav,
@@ -13,16 +13,13 @@ import svg from 'assets/avocado.svg';
 import { useAppContext } from '../Store/AppContext';
 export const Header = () => {
   const { selectedData, updateSelectedData } = useAppContext();
-  const location = useLocation();
+
   const navigate = useNavigate();
-  const backBtnLink = location.state?.from ?? '/';
-  console.log('backLink', backBtnLink);
 
   const handleGoBack = () => {
-    const prevPage =
+    const nextPage =
       selectedData.page === 1 ? selectedData.page : selectedData.page - 1;
-    updateSelectedData({ page: prevPage });
-    navigate(backBtnLink);
+    handleContinue(nextPage, updateSelectedData, navigate);
   };
   return (
     <StyledHeader>

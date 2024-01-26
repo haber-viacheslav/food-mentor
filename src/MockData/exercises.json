@@ -1,0 +1,6 @@
+[
+  { "id": 1, "descr": "Hardly at all" },
+  { "id": 2, "descr": "Fitness 1-2 times a week" },
+  { "id": 3, "descr": "Fitness 3-5 times a week" },
+  { "id": 4, "descr": "Fitness 5-7 times a week" }
+]

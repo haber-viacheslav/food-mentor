@@ -6,5 +6,9 @@ export const StyledBackBtn = styled.button`
   border-radius: 6.5px;
   background-color: ${props => props.theme.colors.transparent};
   border: none;
-  cursor: pointer;
+  transition: 300ms color ease-in-out;
+  :hover,
+  :focus {
+    cursor: pointer;
+  }
 `;

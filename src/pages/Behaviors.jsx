@@ -15,11 +15,10 @@ import { areBehaviorsEqual } from 'utils/areBehaviorsEqual';
 const Behaviors = () => {
   const { selectedData, updateSelectedData } = useAppContext();
   const navigate = useNavigate();
-
   const [localBehaviors, setLocalBehaviors] = useState(behaviorsData);
 
   useEffect(() => {
-    if (selectedData.behaviors) {
+    if (selectedData.behaviors && selectedData.behaviors.length > 0) {
       const updatedBehaviors = localBehaviors.map(behavior =>
         selectedData.behaviors.find(
           selectedBehavior => selectedBehavior.id === behavior.id
@@ -35,41 +34,25 @@ const Behaviors = () => {
   }, [localBehaviors, selectedData.behaviors]);
 
   const handleBehaviorSelect = selectedBehavior => {
-    const foundBehavior = localBehaviors.find(
-      behavior => behavior.id === selectedBehavior.id
+    setLocalBehaviors(prevBehaviors =>
+      prevBehaviors.map(behavior =>
+        behavior.id === selectedBehavior.id
+          ? { ...behavior, selected: !behavior.selected }
+          : behavior
+      )
     );
-
-    if (foundBehavior) {
-      foundBehavior.selected = !foundBehavior.selected;
-      setLocalBehaviors([...localBehaviors]);
-    }
   };
 
   const handleButtonClick = () => {
     const nextPage = selectedData.page + 1;
 
-    const updatedGlobalBehaviors = localBehaviors.reduce(
-      (acc, localBehavior) => {
-        if (selectedData.behaviors) {
-          const globalBehavior = selectedData.behaviors.find(
-            global => global && global.id === localBehavior.id
-          );
-
-          if (localBehavior.selected) {
-            acc.push(localBehavior);
-          } else if (globalBehavior && globalBehavior.selected) {
-            acc.push({ ...globalBehavior, selected: false });
-          }
-        }
-        return acc;
-      },
-      []
+    const updatedGlobalBehaviors = localBehaviors.filter(
+      localBehavior => localBehavior.selected
     );
 
     updateSelectedData({ behaviors: updatedGlobalBehaviors });
     handleContinue(nextPage, updateSelectedData, navigate);
   };
-
   return (
     <Section>
       <ContentWrapper>

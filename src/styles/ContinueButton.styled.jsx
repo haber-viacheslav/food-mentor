@@ -19,4 +19,10 @@ export const StyledContinueButton = styled.button`
   font-weight: 700;
   line-height: 1.44;
   letter-spacing: 0.2px;
+  transition: 300ms opacity ease-in-out;
+  :hover,
+  :focus {
+    opacity: 0.7;
+    cursor: pointer;
+  }
 `;
